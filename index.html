@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuizMaster Backlogs</title>
+    <title>Team Leopards Backlogs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="backlogs.css">
 </head>
 <body>
     <div class="container my-5">
-        <h1 class="text-center mb-4">QuizMaster Backlogs - Team Fun</h1>
+        <h1 class="text-center mb-4">Team Leopards Backlogs</h1>
 
         <!-- Navigation Buttons -->
         <div class="text-center mb-5">
             <button class="btn btn-primary mx-2" onclick="scrollToSection('sprint4')">Sprint 4</button>
             <button class="btn btn-primary mx-2" onclick="scrollToSection('sprint5')">Sprint 5</button>
             <button class="btn btn-primary mx-2" onclick="scrollToSection('sprint6')">Sprint 6</button>
+            <button class="btn btn-primary mx-2" onclick="scrollToSection('sprint7')">Sprint 7</button>
             <button class="btn btn-primary mx-2" onclick="scrollToSection('quizmaster')">QuizMaster</button>
         </div>
 
@@ -285,6 +286,102 @@
             </table>
         </section>
 
+        <!-- Sprint 7 Backlog Section -->
+        <section id="sprint7" class="mb-5">
+            <h2>Sprint 7 Backlog</h2>
+            <div class="mb-3">
+                <p><strong>Sprint 7 Scrum Master:</strong> Roudha</p>
+                <p><strong>Sprint 7 Product Owner:</strong> Joud</p>
+                <p><strong>Capacity:</strong> 10hrs per member</p>
+                <p><strong>Total Stories Committed:</strong> 7</p>
+                <p><strong>Story Points Committed:</strong> 20</p>
+                <p><strong>Stories/Story Points per Team Member:</strong></p>
+                <ul>
+                    <li>Joud: 10</li>
+                    <li>Roudha: 10</li>
+                </ul>
+                <p><strong>Percent Spike Story Points:</strong> 1 spike (3 story points) = 15%</p>
+            </div>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Story ID</th>
+                        <th>Description</th>
+                        <th>Priority</th>
+                        <th>Story Points</th>
+                        <th>Status</th>
+                        <th>Assigned To</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-danger">
+                        <td>S7-1</td>
+                        <td>As a team, we want to prepare and submit the final project presentation to showcase our React-based dashboard</td>
+                        <td>High</td>
+                        <td>4</td>
+                        <td>Not Completed</td>
+                        <td>Joud, Roudha</td>
+                        <td>Plan to create slides highlighting S6-1 (React dashboard) and S6-2 (Azure deployment), submit by April 20, 2025</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-2</td>
+                        <td>As a team, we want to deliver the final project presentation to our classmates and instructor</td>
+                        <td>High</td>
+                        <td>3</td>
+                        <td>Not Completed</td>
+                        <td>Joud, Roudha</td>
+                        <td>Plan to present during April 20–27, 2025, per schedule, demoing https://ashy-coast-021e03b1e.6.azurestaticapps.net/</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-3</td>
+                        <td>As a developer, we want to document and validate the product transition plan for ownership transfer</td>
+                        <td>Medium</td>
+                        <td>3</td>
+                        <td>Not Completed</td>
+                        <td>Roudha</td>
+                        <td>Plan to finalize documentation for handover, building on S6-4</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-4</td>
+                        <td>As a developer, we want to research design patterns for our project (Spike)</td>
+                        <td>Medium</td>
+                        <td>3</td>
+                        <td>Not Completed</td>
+                        <td>Joud</td>
+                        <td>Plan to study MVC and Singleton patterns, apply to S6-1 dashboard</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-5</td>
+                        <td>As a team, we want to review and complete Sprint 7 assignments (Discussion, Quiz, Lab, Reflection)</td>
+                        <td>Medium</td>
+                        <td>3</td>
+                        <td>Not Completed</td>
+                        <td>Joud, Roudha</td>
+                        <td>Plan to submit all deliverables by April 30, 2025</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-6</td>
+                        <td>As a team, we want to review the calendar and schedule to ensure alignment with Sprint 7 due dates</td>
+                        <td>Low</td>
+                        <td>2</td>
+                        <td>Not Completed</td>
+                        <td>Roudha</td>
+                        <td>Plan to confirm April 30, 2025, deadline for all submissions</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>S7-7</td>
+                        <td>As a developer, we want to review example code, Git commands, and coding standards from previous sprints</td>
+                        <td>Low</td>
+                        <td>2</td>
+                        <td>Not Completed</td>
+                        <td>Joud</td>
+                        <td>Plan to analyze S6-1 React code and S6-2 GitHub Actions, ensure compliance</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
         <!-- QuizMaster Backlog Section -->
         <section id="quizmaster" class="mb-5">
             <h2>QuizMaster Backlog (Sprint 6 as of April 21st, 2025)</h2>
@@ -369,7 +466,7 @@
         </section>
 
         <footer class="text-center mt-5">
-            <p>© 2025 Team Fun. Last Updated: April 21st, 2025.</p>
+            <p>© 2025 Team Leopards. Last Updated: April 21st, 2025.</p>
         </footer>
     </div>
 
